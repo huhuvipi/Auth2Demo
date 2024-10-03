@@ -8,7 +8,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.zibdy.ZibdyHealth</string>
+			<string>VinhHuynh.Auth2Demo</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>zibdyhealth</string>
