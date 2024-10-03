@@ -1,0 +1,12 @@
+{
+    "endpoint" : "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/",
+    "hospitalId" : 1897,
+    "createdDate" : "0001-01-01T00:00:00",
+    "vendorName" : "Epic",
+    "clientId" : "9d1e5ee7-3e99-478f-b9f1-1d8812ee1c50",
+    "fhiR_Version" : "R4",
+    "resourceURI" : null,
+    "name" : "EPIC_ZibdyHealthCoreDev_R4",
+    "clientSecret" : "",
+    "scope" : "patient/AllergyIntolerance.readpatient/CarePlan.readpatient/Condition.readpatient/DiagnosticReport.readpatient/Immunization.readpatient/Medication.readpatient/MedicationOrder.readpatient/MedicationStatement.readpatient/Observation.readpatient/Patient.readpatient/Practitioner.readpatient/Procedure.readopenid profilelaunch/patientoffline_access"
+}

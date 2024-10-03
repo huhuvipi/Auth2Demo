@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92165ECD2CACF0120004E280 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 92165ECC2CACF0120004E280 /* AppAuth */; };
+		92165ECF2CACF0120004E280 /* AppAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = 92165ECE2CACF0120004E280 /* AppAuthCore */; };
+		92165EDB2CACF7710004E280 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 92165EDA2CACF7710004E280 /* config.json */; };
+		92165F092CACFE570004E280 /* SwiftJWT in Frameworks */ = {isa = PBXBuildFile; productRef = 92165F082CACFE570004E280 /* SwiftJWT */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92165EAF2CACEFD00004E280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92165E962CACEFCE0004E280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92165E9D2CACEFCE0004E280;
+			remoteInfo = Auth2Demo;
+		};
+		92165EB92CACEFD00004E280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92165E962CACEFCE0004E280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92165E9D2CACEFCE0004E280;
+			remoteInfo = Auth2Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92165E9E2CACEFCE0004E280 /* Auth2Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auth2Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92165EAE2CACEFD00004E280 /* Auth2DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Auth2DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92165EB82CACEFD00004E280 /* Auth2DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Auth2DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92165EDA2CACF7710004E280 /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		92165F0E2CAD1C840004E280 /* Exceptions for "Auth2Demo" folder in "Auth2Demo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 92165E9D2CACEFCE0004E280 /* Auth2Demo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		92165EA02CACEFCE0004E280 /* Auth2Demo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				92165F0E2CAD1C840004E280 /* Exceptions for "Auth2Demo" folder in "Auth2Demo" target */,
+			);
+			path = Auth2Demo;
+			sourceTree = "<group>";
+		};
+		92165EB12CACEFD00004E280 /* Auth2DemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Auth2DemoTests;
+			sourceTree = "<group>";
+		};
+		92165EBB2CACEFD00004E280 /* Auth2DemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Auth2DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92165E9B2CACEFCE0004E280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92165ECD2CACF0120004E280 /* AppAuth in Frameworks */,
+				92165ECF2CACF0120004E280 /* AppAuthCore in Frameworks */,
+				92165F092CACFE570004E280 /* SwiftJWT in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92165EAB2CACEFD00004E280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92165EB52CACEFD00004E280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92165E952CACEFCE0004E280 = {
+			isa = PBXGroup;
+			children = (
+				92165EDA2CACF7710004E280 /* config.json */,
+				92165EA02CACEFCE0004E280 /* Auth2Demo */,
+				92165EB12CACEFD00004E280 /* Auth2DemoTests */,
+				92165EBB2CACEFD00004E280 /* Auth2DemoUITests */,
+				92165E9F2CACEFCE0004E280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92165E9F2CACEFCE0004E280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92165E9E2CACEFCE0004E280 /* Auth2Demo.app */,
+				92165EAE2CACEFD00004E280 /* Auth2DemoTests.xctest */,
+				92165EB82CACEFD00004E280 /* Auth2DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92165E9D2CACEFCE0004E280 /* Auth2Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92165EC22CACEFD00004E280 /* Build configuration list for PBXNativeTarget "Auth2Demo" */;
+			buildPhases = (
+				92165E9A2CACEFCE0004E280 /* Sources */,
+				92165E9B2CACEFCE0004E280 /* Frameworks */,
+				92165E9C2CACEFCE0004E280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				92165EA02CACEFCE0004E280 /* Auth2Demo */,
+			);
+			name = Auth2Demo;
+			packageProductDependencies = (
+				92165ECC2CACF0120004E280 /* AppAuth */,
+				92165ECE2CACF0120004E280 /* AppAuthCore */,
+				92165F082CACFE570004E280 /* SwiftJWT */,
+			);
+			productName = Auth2Demo;
+			productReference = 92165E9E2CACEFCE0004E280 /* Auth2Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92165EAD2CACEFD00004E280 /* Auth2DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92165EC52CACEFD00004E280 /* Build configuration list for PBXNativeTarget "Auth2DemoTests" */;
+			buildPhases = (
+				92165EAA2CACEFD00004E280 /* Sources */,
+				92165EAB2CACEFD00004E280 /* Frameworks */,
+				92165EAC2CACEFD00004E280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92165EB02CACEFD00004E280 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92165EB12CACEFD00004E280 /* Auth2DemoTests */,
+			);
+			name = Auth2DemoTests;
+			packageProductDependencies = (
+			);
+			productName = Auth2DemoTests;
+			productReference = 92165EAE2CACEFD00004E280 /* Auth2DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92165EB72CACEFD00004E280 /* Auth2DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92165EC82CACEFD00004E280 /* Build configuration list for PBXNativeTarget "Auth2DemoUITests" */;
+			buildPhases = (
+				92165EB42CACEFD00004E280 /* Sources */,
+				92165EB52CACEFD00004E280 /* Frameworks */,
+				92165EB62CACEFD00004E280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92165EBA2CACEFD00004E280 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92165EBB2CACEFD00004E280 /* Auth2DemoUITests */,
+			);
+			name = Auth2DemoUITests;
+			packageProductDependencies = (
+			);
+			productName = Auth2DemoUITests;
+			productReference = 92165EB82CACEFD00004E280 /* Auth2DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92165E962CACEFCE0004E280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					92165E9D2CACEFCE0004E280 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					92165EAD2CACEFD00004E280 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 92165E9D2CACEFCE0004E280;
+					};
+					92165EB72CACEFD00004E280 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 92165E9D2CACEFCE0004E280;
+					};
+				};
+			};
+			buildConfigurationList = 92165E992CACEFCE0004E280 /* Build configuration list for PBXProject "Auth2Demo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92165E952CACEFCE0004E280;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				92165ECB2CACF0120004E280 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
+				92165F072CACFE570004E280 /* XCRemoteSwiftPackageReference "Swift-JWT" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 92165E9F2CACEFCE0004E280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92165E9D2CACEFCE0004E280 /* Auth2Demo */,
+				92165EAD2CACEFD00004E280 /* Auth2DemoTests */,
+				92165EB72CACEFD00004E280 /* Auth2DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92165E9C2CACEFCE0004E280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92165EDB2CACF7710004E280 /* config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92165EAC2CACEFD00004E280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92165EB62CACEFD00004E280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92165E9A2CACEFCE0004E280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92165EAA2CACEFD00004E280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92165EB42CACEFD00004E280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92165EB02CACEFD00004E280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92165E9D2CACEFCE0004E280 /* Auth2Demo */;
+			targetProxy = 92165EAF2CACEFD00004E280 /* PBXContainerItemProxy */;
+		};
+		92165EBA2CACEFD00004E280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92165E9D2CACEFCE0004E280 /* Auth2Demo */;
+			targetProxy = 92165EB92CACEFD00004E280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92165EC02CACEFD00004E280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92165EC12CACEFD00004E280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92165EC32CACEFD00004E280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Auth2Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 73FFR772T2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Auth2Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VinhHuynh.Auth2Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92165EC42CACEFD00004E280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Auth2Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 73FFR772T2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Auth2Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VinhHuynh.Auth2Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92165EC62CACEFD00004E280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73FFR772T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VinhHuynh.Auth2DemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auth2Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Auth2Demo";
+			};
+			name = Debug;
+		};
+		92165EC72CACEFD00004E280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73FFR772T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VinhHuynh.Auth2DemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auth2Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Auth2Demo";
+			};
+			name = Release;
+		};
+		92165EC92CACEFD00004E280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73FFR772T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VinhHuynh.Auth2DemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Auth2Demo;
+			};
+			name = Debug;
+		};
+		92165ECA2CACEFD00004E280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73FFR772T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VinhHuynh.Auth2DemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Auth2Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92165E992CACEFCE0004E280 /* Build configuration list for PBXProject "Auth2Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92165EC02CACEFD00004E280 /* Debug */,
+				92165EC12CACEFD00004E280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92165EC22CACEFD00004E280 /* Build configuration list for PBXNativeTarget "Auth2Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92165EC32CACEFD00004E280 /* Debug */,
+				92165EC42CACEFD00004E280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92165EC52CACEFD00004E280 /* Build configuration list for PBXNativeTarget "Auth2DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92165EC62CACEFD00004E280 /* Debug */,
+				92165EC72CACEFD00004E280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92165EC82CACEFD00004E280 /* Build configuration list for PBXNativeTarget "Auth2DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92165EC92CACEFD00004E280 /* Debug */,
+				92165ECA2CACEFD00004E280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92165ECB2CACF0120004E280 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.5;
+			};
+		};
+		92165F072CACFE570004E280 /* XCRemoteSwiftPackageReference "Swift-JWT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kitura/Swift-JWT";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92165ECC2CACF0120004E280 /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92165ECB2CACF0120004E280 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+		92165ECE2CACF0120004E280 /* AppAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92165ECB2CACF0120004E280 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthCore;
+		};
+		92165F082CACFE570004E280 /* SwiftJWT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92165F072CACFE570004E280 /* XCRemoteSwiftPackageReference "Swift-JWT" */;
+			productName = SwiftJWT;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 92165E962CACEFCE0004E280 /* Project object */;
+}
